@@ -1,6 +1,6 @@
 ## Notes
 
-* I wanted something that felt comfortable, generally good for any day to day text editting, and light. If everything goes well, this entire set up should feel like an extremely basic IDE, only take five or so minutes to set up, and all be fairly readable if you know basic lua.
+* I wanted something that felt comfortable, generally good for any day to day text editing, and light. If everything goes well, this entire set up should feel like an extremely basic IDE, only take five or so minutes to set up, and all be fairly readable if you know basic lua.
 * Check Issues for what I'd like to improve and known bugs. My preference for reporting issues would be Issues. For questions, ideas, etc I would prefer Discussions.
 
 
