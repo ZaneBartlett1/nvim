@@ -1,3 +1,9 @@
+## Notes
+
+* I wanted something that felt comfortable, generally good for any day to day text editting, and light. If everything goes well, this entire set up should feel like an extremely basic IDE, only take five or so minutes to set up, and all be fairly readable if you know basic lua.
+* Check Issues for what I'd like to improve and known bugs. My preference for reporting issues would be Issues. For questions, ideas, etc I would prefer Discussions.
+
+
 ## Setting up
 
 1. Clone repo into ```~/.config```
@@ -21,12 +27,8 @@ alias v='~/.local/share/applications/nvim.appimage'
 alias V='~/.local/share/applications/nvim.appimage -c ":Lexplore|wincmd l|10split|terminal"'
 ```
 
-## Notes
 
-* I wanted something that felt comfortable, generally good for any day to day text editting, and light. If everything goes well, this entire set up should feel like an extremely basic IDE and only take five or ten minutes to set up.
-* Check issues for what I'd like to improve and known bugs. My preference for reporting issues, ideas, etc would be discussions.
-
-### Sources used (very non-exhaustive)
+## Sources used (very non-exhaustive)
 * https://mattermost.com/blog/how-to-install-and-set-up-neovim-for-code-editing/
 * https://gist.github.com/danidiaz/37a69305e2ed3319bfff9631175c5d0f
 * http://www.akhatib.com/making-netrw-clean-and-minimally-disruptive-then-stop-using-it/
