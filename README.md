@@ -23,7 +23,8 @@ alias V='~/.local/share/applications/nvim.appimage -c ":Lexplore|wincmd l|10spli
 
 ## Notes
 
-* Check issues for what I'd like to improve and known bugs
+* I wanted something that felt comfortable, generally good for any day to day text editting, and light. If everything goes well, this entire set up should feel like an extremely basic IDE and only take five or ten minutes to set up.
+* Check issues for what I'd like to improve and known bugs. My preference for reporting issues, ideas, etc would be discussions.
 
 ### Sources used (very non-exhaustive)
 * https://mattermost.com/blog/how-to-install-and-set-up-neovim-for-code-editing/
