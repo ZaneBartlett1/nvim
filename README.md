@@ -1,6 +1,6 @@
 ## Notes
 
-* I wanted something that felt comfortable, generally good for any day to day text editing, light, and very importantly stable. If everything goes well, this entire set up should feel like an extremely basic IDE, only take five or so minutes, and all be fairly readable if you know basic lua.
+* I wanted something that felt comfortable, generally good for any day to day text editing, light, and very importantly stable. If everything goes well, this entire set up should feel like an extremely basic IDE (really only for python), only take five or so minutes, and all be fairly readable if you know basic lua.
    * Tab complete for python ([coc](https://github.com/neoclide/coc.nvim))
    * Linting for python ([coc](https://github.com/neoclide/coc.nvim))
    * Formatting for python ([black](https://github.com/psf/black))
@@ -9,6 +9,9 @@
    * Syntax highlighting (native)
    * Cleaned up netrw (native)
    * Very Lua inspired. Coc and Black aren't due to pretty obvious reasons, but all others are primarly Lua.
+ * If you're looking for something more, I reccomend checking out -
+    * A more complete, but still "basic" [IDE](https://github.com/LunarVim/nvim-basic-ide)
+    * Closest to a full [IDE](https://github.com/LunarVim/LunarVim)
 * Check Issues for what I'd like to improve and known bugs. My preference for reporting issues would be Issues. For questions, ideas, etc I would prefer Discussions.
 
 
