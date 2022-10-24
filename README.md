@@ -8,7 +8,7 @@
    * Nice vscode inspired dark theme ([vscode](https://github.com/Mofiqul/vscode.nvim))
    * Syntax highlighting (native)
    * Cleaned up netrw (native)
-   * Very Lua inspired. All plugs are either very large and include many languages for a wide range of support or are written primarly in Lua.
+   * Very Lua inspired. Coc and Black aren't due to pretty obvious reasons, but all others are primarly Lua.
 * Check Issues for what I'd like to improve and known bugs. My preference for reporting issues would be Issues. For questions, ideas, etc I would prefer Discussions.
 
 
