@@ -1,6 +1,14 @@
 ## Notes
 
-* I wanted something that felt comfortable, generally good for any day to day text editing, and light. If everything goes well, this entire set up should feel like an extremely basic IDE, only take five or so minutes to set up, and all be fairly readable if you know basic lua.
+* I wanted something that felt comfortable, generally good for any day to day text editing, light, and very importantly stable. If everything goes well, this entire set up should feel like an extremely basic IDE, only take five or so minutes to set up, and all be fairly readable if you know basic lua.
+   * Tab complete for python ([coc](https://github.com/neoclide/coc.nvim))
+   * Linting for python ([coc](https://github.com/neoclide/coc.nvim))
+   * Formatting for python ([black](https://github.com/psf/black))
+   * Git decorators ([gitsigns](https://github.com/lewis6991/gitsigns.nvim))
+   * Nice vscode inspired dark theme ([vscode](https://github.com/Mofiqul/vscode.nvim))
+   * Syntax highlighting (native)
+   * Cleaned up netrw (native)
+   * Very Lua inspired. All plugs are either very large and include many languages for a wide range of support or are written primarly in Lua.
 * Check Issues for what I'd like to improve and known bugs. My preference for reporting issues would be Issues. For questions, ideas, etc I would prefer Discussions.
 
 
