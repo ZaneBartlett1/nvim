@@ -1,7 +1,7 @@
 ## Setting up
 
 1. Clone repo into ```~/.config```
-2. Get NerdFonts set up, this is for the barbar pluggin. Barbar uses them for tab icons.
+2. Get a Patch Font from NerdFonts set up, this is for the barbar pluggin as it uses icons in it's tabs.
     * Likely you'll want to watch the video below this but, the gist -
       * A patch font is basically a wide varity of glyphs all set to a certain font. [Download here](https://github.com/ryanoasis/nerd-fonts#patched-fonts)
       * Move it to a spot your system can see it. For Ubuntu you can make directory called "fonts" under ```~/.local/share``` and put your patch font there. [Source](https://askubuntu.com/questions/3697/how-do-i-install-fonts)
