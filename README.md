@@ -20,7 +20,7 @@
 4. Get Coc set up
     * For python - With neovim open, run ```:CocInstall coc-pyright```
     * [Full guide](https://github.com/fannheyward/coc-pyright)
-5. Run PackerSync
+5. With Neovim open run ```:PackerSync```
 6. Assuming you're using nvim appimage and it's in ~/.local/share/applications/nvim.appimage here's the alias. Add to your .bashrc.
 ```
 alias v='~/.local/share/applications/nvim.appimage'
