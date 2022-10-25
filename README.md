@@ -30,6 +30,7 @@
 4. Get Packer (plug manager) installed
     * Run ```git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.config/nvim/site/pack/packer/start/packer.nvim```
+    * [Full guide](https://github.com/wbthomason/packer.nvim)
 5. Get Black set up
     * Should just be ```pip install black```
     * [Full guide](https://black.readthedocs.io/en/stable/getting_started.html)
