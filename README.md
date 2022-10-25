@@ -29,7 +29,7 @@
     * Use [beftabline](https://github.com/ap/vim-buftabline) if you don't want to set up NerdFonts
 4. Get Packer (plug manager) installed
     * Run ```git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.config/nvim/site/pack/packer/start/packer.nvim```
+ ~/.config/nvim/site/pack/packer/start/packer.nvim```. NOTE: This is not how packer would tell you to install. This is installing it under you're ```~/.configure/nvim```. This works because it's still in your PATH for nvim. You can read more [here](https://mattermost.com/blog/turning-neovim-into-a-full-fledged-code-editor-with-lua/) (ctrl+f and find the command on this page) about why you might want to do that, just keeps it "cleaner" basically.
     * [Full guide](https://github.com/wbthomason/packer.nvim)
 5. Get Black set up
     * Should just be ```pip install black```
