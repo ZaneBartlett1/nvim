@@ -32,7 +32,7 @@
     * For python - With neovim open, run ```:CocInstall coc-pyright```
     * [Full guide](https://github.com/fannheyward/coc-pyright)
 5. With nvim open run  ```:PackerSync```
-6. Assuming you're using nvim appimage and it's in ~/.local/share/applications/nvim.appimage here's the alias. Add to your .bashrc.
+6. Assuming you're using [nvim appimage](https://github.com/neovim/neovim/releases) and it's in ~/.local/share/applications/nvim.appimage here's the alias. Add to your .bashrc.
 ```
 alias v='~/.local/share/applications/nvim.appimage'
 alias V='~/.local/share/applications/nvim.appimage -c ":Lexplore|wincmd l|10split|terminal"'
