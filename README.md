@@ -22,7 +22,7 @@
 3. Get a Patch Font from NerdFonts set up, this is for the barbar pluggin as it uses icons in it's tabs.
     * Likely you'll want to watch the video below this but, the gist -
       * A patch font is basically a wide varity of glyphs all set to a certain font. If you're not picky "[Hack](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack#linux)" is popular and what I used. [Patch Font download list here](https://github.com/ryanoasis/nerd-fonts#patched-fonts)
-      * Move it to a spot your system can see it. For Ubuntu you can make a directory called "fonts" under ```~/.local/share```, so ```mkdir ~/.local/share/fonts```, and put your patch font there. [Source](https://askubuntu.com/questions/3697/how-do-i-install-fonts)
+      * Move it to a spot your system can see it. For Ubuntu you can make a directory called "fonts" under ```~/.local/share```, so ```mkdir ~/.local/share/fonts```, and put your patch font there. There are other places you could do it, but that is probably what you'd want, watch the video for more information. Don't forget to unzip the file. Also, you my want to make a directory called "Hack" to unzip it in as there are several files that inflate from the zip.
       * Set your terminal to use the custom font. For the GNOME terminal I found it under prefrences/profiles/text. Select "custom font" and choose whatever patch font you downloaded.
     * [This video was what I used](https://www.youtube.com/watch?v=435-amtVYJ8)
     * Use [beftabline](https://github.com/ap/vim-buftabline) if you don't want to set up NerdFonts
