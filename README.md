@@ -36,7 +36,7 @@
 7. Get coc-pyright set up
     * For python - With neovim open, run ```:CocInstall coc-pyright```
     * [Full guide](https://github.com/fannheyward/coc-pyright)
-8. Assuming you're using [nvim appimage](https://github.com/neovim/neovim/releases) and it's in ~/.local/share/applications/nvim.appimage here's the alias. Add to your .bashrc.
+8. Assuming you're using [nvim appimage](https://github.com/neovim/neovim/releases) and it's in ~/.local/share/applications/nvim.appimage here's the alias. Add to your .bashrc. Also ```:QQ``` in nvim is set to save all buffers then quit all buffers.
 ```
 alias v='~/.local/share/applications/nvim.appimage'
 alias V='~/.local/share/applications/nvim.appimage -c ":Lexplore|wincmd l|10split|terminal"'
