@@ -27,14 +27,17 @@
       * Set your terminal to use the custom font. For the GNOME terminal I found it under prefrences/profiles/text. Select "custom font" and choose whatever patch font you downloaded.
     * [This video was what I used](https://www.youtube.com/watch?v=435-amtVYJ8)
     * Use [beftabline](https://github.com/ap/vim-buftabline) if you don't want to set up NerdFonts
-4. Get Black set up
+4. Get Packer (plug manager) installed
+    * Run ```git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.config/nvim/site/pack/packer/start/packer.nvim```
+5. Get Black set up
     * Should just be ```pip install black```
     * [Full guide](https://black.readthedocs.io/en/stable/getting_started.html)
-5. Get Coc set up
+6. With nvim open run  ```:PackerSync```
+7. Get Coc set up
     * For python - With neovim open, run ```:CocInstall coc-pyright```
     * [Full guide](https://github.com/fannheyward/coc-pyright)
-6. With nvim open run  ```:PackerSync```
-7. Assuming you're using [nvim appimage](https://github.com/neovim/neovim/releases) and it's in ~/.local/share/applications/nvim.appimage here's the alias. Add to your .bashrc.
+8. Assuming you're using [nvim appimage](https://github.com/neovim/neovim/releases) and it's in ~/.local/share/applications/nvim.appimage here's the alias. Add to your .bashrc.
 ```
 alias v='~/.local/share/applications/nvim.appimage'
 alias V='~/.local/share/applications/nvim.appimage -c ":Lexplore|wincmd l|10split|terminal"'
