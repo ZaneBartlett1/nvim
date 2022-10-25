@@ -17,7 +17,7 @@
 
 ## Setting up
 
-1. Install [neovim](https://github.com/neovim/neovim/releases) if you haven't already. I reccomend the appimage, makes updating really easy.
+1. Install [neovim](https://github.com/neovim/neovim/releases) if you haven't already. I reccommend the appimage, makes updating really easy.
 2. Clone repo into ```~/.config```
 3. Get a Patch Font from NerdFonts set up, this is for the barbar pluggin as it uses icons in it's tabs.
     * Likely you'll want to watch the video below this but, the gist -
