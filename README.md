@@ -8,6 +8,7 @@
    * Nice vscode inspired dark theme ([vscode](https://github.com/Mofiqul/vscode.nvim))
    * Syntax highlighting (native)
    * Cleaned up netrw (native)
+   * Check out lua/keys.lua in this repo for any preset keymappings. Mostly setting better buffer and window navigation. 
    * Very Lua inspired. The init file is in lua, and besides Coc and Black for fairly obvious reasons, all pluggins are written completely in Lua.
  * If you're looking for something more, I reccomend checking out -
     * A more complete, but still "basic" [IDE](https://github.com/LunarVim/nvim-basic-ide)
