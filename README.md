@@ -8,7 +8,7 @@
    * Nice vscode inspired dark theme ([vscode](https://github.com/Mofiqul/vscode.nvim))
    * Syntax highlighting (native)
    * Cleaned up netrw (native)
-   * Very Lua inspired. Coc and Black aren't due to pretty obvious reasons, but all others are primarly Lua.
+   * Very Lua inspired. The init file is in lua, and besides Coc and Black for fairly obvious reasons, all pluggins are written completely in Lua.
  * If you're looking for something more, I reccomend checking out -
     * A more complete, but still "basic" [IDE](https://github.com/LunarVim/nvim-basic-ide)
     * Closest to a full [IDE](https://github.com/LunarVim/LunarVim)
