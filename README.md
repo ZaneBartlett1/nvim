@@ -37,7 +37,7 @@
 7. Get coc-pyright set up
     * For python - With neovim open, run ```:CocInstall coc-pyright```
     * [Full guide](https://github.com/fannheyward/coc-pyright)
-8. Assuming you're using [nvim appimage](https://github.com/neovim/neovim/releases) and it's in ~/.local/share/applications/nvim.appimage here's a nice bash alias. With this you can run nvim with "v". Them with "V", you can run nvim, open your file explorer, and terminal all at once. Add the below to your .bashrc. If you're unfamiliar with .bashrc read more [here](https://www.digitalocean.com/community/tutorials/bashrc-file-in-linux), but it's just the bash configuration file, like how the init.lua file is the nvim configuation file to nvim.
+8. Assuming you're using [nvim appimage](https://github.com/neovim/neovim/releases) and it's in ~/.local/share/applications/nvim.appimage here's a couple nice bash aliases. With this you can run nvim with "v". Then with "V", you can run nvim, open your file explorer, and terminal all at once. Add the below to your .bashrc. If you're unfamiliar with .bashrc read more [here](https://www.digitalocean.com/community/tutorials/bashrc-file-in-linux), but it's just the bash configuration file, like how the init.lua file is the nvim configuation file to nvim.
 ```
 alias v='~/.local/share/applications/nvim.appimage'
 alias V='~/.local/share/applications/nvim.appimage -c ":Lexplore|wincmd l|10split|terminal"'
