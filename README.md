@@ -1,6 +1,6 @@
 ## Notes
 
-* I wanted something that felt comfortable, generally good for any day to day text editing, light, and very importantly stable. If everything goes well, this entire set up should feel like an extremely basic IDE (really only for python), only take five or so minutes, and all be fairly readable if you know basic lua.
+* I wanted something that felt comfortable, generally good for any day to day text editing, light, and very importantly stable. If everything goes well, this entire set up should feel like an extremely basic IDE (really only for python), only take ten or so minutes, and all be fairly readable if you know basic lua.
    * Tab complete for python ([coc](https://github.com/neoclide/coc.nvim))
    * Linting for python ([coc](https://github.com/neoclide/coc.nvim))
    * Formatting for python ([black](https://github.com/psf/black))
