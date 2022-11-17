@@ -4,12 +4,13 @@
    * Tab complete for python ([CoC](https://github.com/neoclide/coc.nvim))
    * Linting for python ([CoC](https://github.com/neoclide/coc.nvim))
    * Formatting for python ([Black](https://github.com/psf/black))
+   * Buffer tabs ([Barbar](https://github.com/romgrk/barbar.nvim))
    * Git decorators ([Gitsigns](https://github.com/lewis6991/gitsigns.nvim))
    * Nice vscode inspired dark theme ([VScode](https://github.com/Mofiqul/vscode.nvim))
    * Syntax highlighting (native)
    * Cleaned up netrw (native)
    * Check out [```lua/keys.lua```](https://github.com/ZaneBartlett1/nvim/blob/main/lua/keys.lua) for any preset keymappings. Mostly setting better buffer and window navigation. 
-   * Very Lua inspired. All of my personal configuration is in Lua, and besides Coc and Black for fairly obvious reasons, all pluggins are written completely in Lua.
+   * Very Lua inspired. All of my personal configuration is in Lua, and besides Coc and Black for fairly obvious reasons, all pluggins are written almost completely in Lua.
  * If you're looking for something more, I reccomend checking out -
     * A more complete, but still "basic" [IDE](https://github.com/LunarVim/nvim-basic-ide)
     * Closest to a full [IDE](https://github.com/LunarVim/LunarVim)
@@ -21,7 +22,7 @@
 1. Install [neovim](https://github.com/neovim/neovim/releases/tag/stable) if you haven't already. I reccommend the appimage, makes updating really easy.
 2. Clone repo into ```~/.config```
 3. Get a Patch Font from NerdFonts set up, this is for the barbar pluggin as it uses icons in it's tabs.
-    * Use [buftabline](https://github.com/ap/vim-buftabline) if you don't want to set up NerdFonts. I actually prefer this just a bit more because it's so much more streamlined, but it is a much more basic experience. The reason I go with barbar is because it's written 100% in Lua. Although, once you set up NerdFonts, barbar does look very nice.
+    * Use [buftabline](https://github.com/ap/vim-buftabline) if you don't want to set up NerdFonts. I actually prefer this just a bit more because it's so much more streamlined, but it is a much more basic experience. The reason I go with barbar is because it's written almost entirely in Lua. Although, once you set up NerdFonts, barbar does look very nice.
     * You can watch the video below for more detailed instructions, but a a quick walkthrough here -
       * A patch font is basically a wide varity of glyphs all set to a certain font. If you're not picky download "Hack Nerd Font" [here](https://www.nerdfonts.com/font-downloads). It's a popular and what I used. NOTE: There is a way to install a smaller file [here](https://github.com/ryanoasis/nerd-fonts#patched-fonts), but I could NOT get this to work following the instructions. If you'd like the file to be smaller and more specific, try that.
       * Unzip the file and move it to a spot your system can see it. For Ubuntu, you can make a directory called "fonts" under ```~/.local/share```, so ```mkdir ~/.local/share/fonts```, and put the unziped folder there.
