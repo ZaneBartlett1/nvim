@@ -18,7 +18,7 @@
 
 ## Setting up
 
-1. Install [neovim](https://github.com/neovim/neovim/releases) if you haven't already. I reccommend the appimage, makes updating really easy.
+1. Install [neovim](https://github.com/neovim/neovim/releases/tag/stable) if you haven't already. I reccommend the appimage, makes updating really easy.
 2. Clone repo into ```~/.config```
 3. Get a Patch Font from NerdFonts set up, this is for the barbar pluggin as it uses icons in it's tabs.
     * Use [buftabline](https://github.com/ap/vim-buftabline) if you don't want to set up NerdFonts. I actually prefer this just a bit more because it's so much more streamlined, but it is a much more basic experience. The reason I go with barbar is because it's written 100% in Lua. Although, once you set up NerdFonts, barbar does look very nice.
