@@ -13,7 +13,7 @@
  * If you're looking for something more, I reccomend checking out -
     * A more complete, but still "basic" [IDE](https://github.com/LunarVim/nvim-basic-ide)
     * Closest to a full [IDE](https://github.com/LunarVim/LunarVim)
-* Check Issues for what I'd like to improve and known bugs. My preference for reporting issues would be Issues. For questions, ideas, etc I would prefer Discussions.
+* Check Issues for what I'd like to improve and known bugs. My preference for reporting issues would be [Issues](https://github.com/ZaneBartlett1/nvim/issues). For questions, ideas, etc I would prefer [Discussions](https://github.com/ZaneBartlett1/nvim/discussions).
 
 
 ## Setting up
