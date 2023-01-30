@@ -29,10 +29,10 @@
       * Set your terminal to use the custom font. For the GNOME terminal I found it under prefrences/profiles/text. Select "custom font" and choose whatever patch font you downloaded.
     * [This video was what I used](https://www.youtube.com/watch?v=fR4ThXzhQYI)
 4. Get Packer (plug manager) installed
-    * Run ```git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+    * Run ```git clone --depth 1 https://github.com/wbthomason/packer.nvim
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim```
     * [Full guide](https://github.com/wbthomason/packer.nvim)
-5. Get Black set up
+5. Get Black set
     * Should just be ```pip install black```
     * [Full guide](https://black.readthedocs.io/en/stable/getting_started.html)
 6. With nvim open run  ```:PackerSync```
