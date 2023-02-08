@@ -9,14 +9,6 @@ local g = vim.g
 g.t_co = 256
 -- Set for dark themes
 g.background = "dark"
---[[ 
-Update the packpath if used 
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
-~/.config/nvim/site/pack/packer/start/packer.nvim
-to install
-]]--
-local packer_path = vim.fn.stdpath('config') .. '/site'
-vim.o.packpath = vim.o.packpath .. ',' .. packer_path
 
 
 -- [[ Context ]]
