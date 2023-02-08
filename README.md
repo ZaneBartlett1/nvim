@@ -29,9 +29,10 @@
       * Set your terminal to use the custom font. For the GNOME terminal I found it under prefrences/profiles/text. Select "custom font" and choose whatever patch font you downloaded.
     * [This video was what I used](https://www.youtube.com/watch?v=fR4ThXzhQYI)
 4. Get Packer (plug manager) installed
-    * Run ```git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.config/nvim/site/pack/packer/start/packer.nvim```. NOTE: This is not where packer would tell you to install. This is installing it under you're ```~/.configure/nvim```. This works because it's still in your PATH for nvim. You can read more [here](https://mattermost.com/blog/turning-neovim-into-a-full-fledged-code-editor-with-lua/) (ctrl+f and find the command I tell you to run at the start of this step on this page) about why you might want to do that, just a preference thing that keeps it "cleaner" basically. Refer to full guide below for instructions from Packer for installing in their default location.
+    * Run ```git clone --depth 1 https://github.com/wbthomason/packer.nvim
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim```
     * [Full guide](https://github.com/wbthomason/packer.nvim)
-5. Get Black set up
+5. Get Black set
     * Should just be ```pip install black```
     * [Full guide](https://black.readthedocs.io/en/stable/getting_started.html)
 6. With nvim open run  ```:PackerSync```
